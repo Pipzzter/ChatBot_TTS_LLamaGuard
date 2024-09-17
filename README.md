@@ -2,6 +2,9 @@
 
 This is a demo chatbot application designed to handle jewelry-related queries. The application performs real-time interactions with users through Socket.IO and streams responses with Markdown-enhanced formatting.
 
+![Screenshot 2024-09-17 143353](https://github.com/user-attachments/assets/205a1e30-cb8e-4ff4-911b-1fd00806a2b3)
+
+
 ## Features
 
 - **Safety check**: All prompts are checked to ensure they are safe.
