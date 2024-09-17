@@ -30,7 +30,7 @@ git clone https://github.com/Pipzzter/Demo-ChatBot-App.git
 cd Demo-ChatBot-App
 ```
 
-2. Setup the virtual environment
+### 2. Setup the virtual environment
 Before installing dependencies, you need to activate a virtual environment:
 
 For Windows:
@@ -50,14 +50,14 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-3. Install dependencies
+### 3. Install dependencies
 With the virtual environment activated, install the required packages:
 
 ```
 pip install -r requirements.txt
 ```
 
-4. Setup the .env file
+### 4. Setup the .env file
 Create a .env file in the root of the project with your AI keys. The file should include at least the following environment variables:
 
 OPENAI_API_KEY=your_openai_key
@@ -66,12 +66,12 @@ HUGGINGFACE_BASE_URL=your_huggingface_base_url
 
 Replace your_openai_key, your_huggingface_key, and your_huggingface_base_url with your actual API keys.
 
-5. Start the application
+### 5. Start the application
 With everything set up, start the application from the root of the project using the following command:
 ```
 python -m chatapp.main
 ```
 This command will launch the application, allowing you to interact with the jewelry chatbot.
 
-6. Access the Application
+### 6. Access the Application
 Once the application is running, you can access the chatbot by opening your browser and navigating to the locally hosted server (typically at http://localhost:5000).
